@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "etc", "etc", "{A6F324B3-3AA9-4734-8459-F9F21F892EF5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "days", "days", "{5890C780-FE68-40C7-8DC0-B8F3CF5E279C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2023.Day01", "days\AdventOfCode2023.Day01\AdventOfCode2023.Day01.fsproj", "{9C276110-84A3-4570-8A56-D0CB4BEC2093}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2023.Day02", "days\AdventOfCode2023.Day02\AdventOfCode2023.Day02.fsproj", "{35E81FF5-04A9-4233-80AA-09CADF954D05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C276110-84A3-4570-8A56-D0CB4BEC2093} = {5890C780-FE68-40C7-8DC0-B8F3CF5E279C}
+		{35E81FF5-04A9-4233-80AA-09CADF954D05} = {5890C780-FE68-40C7-8DC0-B8F3CF5E279C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C276110-84A3-4570-8A56-D0CB4BEC2093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C276110-84A3-4570-8A56-D0CB4BEC2093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C276110-84A3-4570-8A56-D0CB4BEC2093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C276110-84A3-4570-8A56-D0CB4BEC2093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

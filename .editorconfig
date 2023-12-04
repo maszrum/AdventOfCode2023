@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj,fsproj}]
+indent_size = 2
+resharper_space_before_self_closing = true
+
+[*.{json,xml,yml}]
+indent_size = 2
