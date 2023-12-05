@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2023.Day01", "d
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2023.Day02", "days\AdventOfCode2023.Day02\AdventOfCode2023.Day02.fsproj", "{35E81FF5-04A9-4233-80AA-09CADF954D05}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2023.Day03", "days\AdventOfCode2023.Day03\AdventOfCode2023.Day03.fsproj", "{4BDC2DB9-F451-4009-B5AA-A1884A2B349C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9C276110-84A3-4570-8A56-D0CB4BEC2093} = {5890C780-FE68-40C7-8DC0-B8F3CF5E279C}
 		{35E81FF5-04A9-4233-80AA-09CADF954D05} = {5890C780-FE68-40C7-8DC0-B8F3CF5E279C}
+		{4BDC2DB9-F451-4009-B5AA-A1884A2B349C} = {5890C780-FE68-40C7-8DC0-B8F3CF5E279C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9C276110-84A3-4570-8A56-D0CB4BEC2093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -31,5 +34,9 @@ Global
 		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E81FF5-04A9-4233-80AA-09CADF954D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDC2DB9-F451-4009-B5AA-A1884A2B349C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDC2DB9-F451-4009-B5AA-A1884A2B349C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDC2DB9-F451-4009-B5AA-A1884A2B349C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDC2DB9-F451-4009-B5AA-A1884A2B349C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
